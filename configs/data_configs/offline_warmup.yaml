@@ -1,0 +1,3 @@
+# Replace "/home/user/" with absolute path where your InstellaVL repo resides.
+datasets:
+- json_path: '/home/user/InstellaVL/playground/data/warmup_data/instella_alignment/blip_laion_cc_sbu_558k.json'

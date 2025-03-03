@@ -1,0 +1,57 @@
+playground/support/llava_ov_train.json
+
+# Python
+__pycache__
+*.pyc
+*.egg-info
+dist
+
+# Log
+*.log
+*.log.*
+# *.json
+# *.jsonl
+
+# Data
+!**/alpaca-data-conversation.json
+# Editor
+.idea
+*.swp
+.vscode
+
+# Other
+.DS_Store
+wandb
+output
+streaming
+trl
+*/debug*
+configs/data_configs/debug*
+scripts/1B_release/debug*
+checkpoints
+project_checkpoints
+debug_checkpoints
+playground/data
+ckpts*
+
+.ipynb_checkpoints
+chunyl_scripts
+*.ipynb
+
+# DevContainer
+!.devcontainer/*
+
+# Demo
+serve_images/
+notebooks/
+logs
+scripts/dist_*
+logs/
+internal_project_checkpoints/
+work_dirs
+playground/.nfs028b000000010add00000001
+HIP
+playground/.nfs028b0000017bff2c00000012
+scratchpad
+build/
+playground/*.json

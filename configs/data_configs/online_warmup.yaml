@@ -1,0 +1,3 @@
+# Replace `object_name/path/to` with the actual path starting from `object/user/...`
+datasets:
+- shard_path: 's3://object_name/path/to/warmup_data/instella_alignment/'

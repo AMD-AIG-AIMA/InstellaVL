@@ -1,0 +1,21 @@
+# .mnenv=Multinode ENV vars
+# For across node 
+NCCL_ENABLE_DMABUF_SUPPORT=1
+NCCL_IB_GID_INDEX=3
+NCCL_IB_HCA=mlx5_0,mlx5_2,mlx5_3,mlx5_4,mlx5_5,mlx5_7,mlx5_8,mlx5_9
+NCCL_IB_DISABLE=0
+NCCL_NSOCKS_PERTHREAD=12
+NCCL_SOCKET_IFNAME=rdma0,rdma1,rdma2,rdma3,rdma4,rdma5,rdma6,rdma7
+RCCL_MSCCL_ENABLE=0
+RCCL_MSCCLPP_ENABLE=0
+
+# ********************************** DOCKER ***********************************
+# Define the path to the Docker binary
+DOCKER_COMMAND="/usr/bin/docker"
+CONTAINER_NAME="instellavl_container"
+# Define the Docker image name and tag
+IMAGE="instellavl_image"
+TAG="latest"
+
+# Define the path where Docker should be present. Don't include slash (/) at the end.
+DOCKER_SOURCE="<path/to/folder/of/docker-image-as-rar-file>"

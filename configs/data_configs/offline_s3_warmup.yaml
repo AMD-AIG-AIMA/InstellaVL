@@ -1,0 +1,3 @@
+# Replace "/home/user/" with absolute path where your InstellaVL repo resides.
+datasets:
+- shard_path: '/home/user/InstellaVL/playground/data/mosaic_shards/warmup_data/instella_alignment/'

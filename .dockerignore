@@ -1,0 +1,44 @@
+# Ignore checkpoints and large model files
+checkpoints/
+trl/
+wandb/
+*.ckpt
+*.pt
+*.h5
+
+# Ignore build artifacts
+# Python
+__pycache__
+*.pyc
+*.pyo
+*.egg-info
+dist
+
+# Ignore logs and debug files
+*.log
+*.log.*
+logs/
+*.log
+# *.json
+# *.jsonl
+
+# Data
+!**/alpaca-data-conversation.json
+# Editor
+.idea
+*.swp
+.vscode
+
+
+# Ignore environment and package files
+.env
+.mnenv/
+*.egg-info
+node_modules/
+
+# Ignore Docker-related files
+.dockerignore
+.gitignore
+.editorconfig
+.gitattributes
+Dockerfile

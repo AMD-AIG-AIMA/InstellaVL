@@ -1,0 +1,67 @@
+[tool.black]
+line-length = 240
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "instellavl"
+version = "0.1"
+description = "InstellaVL: AMD's first Vision-Langauge model"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: Apache Software License",
+]
+
+[project.optional-dependencies]
+standalone = [
+    "shortuuid",
+    "httpx==0.24.0",
+    "einops",
+    "ftfy",
+]
+
+train = [
+    "instellavl[standalone]",
+]
+
+[project.urls]
+"Homepage" = "https://huggingface.co/AIG-GenAI/Instella-VL-1B"
+
+[tool.setuptools.packages.find]
+include = ["instellavl*"]
+exclude = [
+    "assets*",
+    "benchmark*",
+    "docs",
+    "dist*",
+    "playground*",
+    "scripts*",
+    "tests*",
+    "checkpoints*",
+    "project_checkpoints*",
+    "debug_checkpoints*",
+    "mlx_configs*",
+    "wandb*",
+    "notebooks*",
+]
+
+[tool.wheel]
+exclude = [
+    "assets*",
+    "benchmark*",
+    "docs",
+    "dist*",
+    "playground*",
+    "scripts*",
+    "tests*",
+    "checkpoints*",
+    "project_checkpoints*",
+    "debug_checkpoints*",
+    "mlx_configs*",
+    "wandb*",
+    "notebooks*",
+]
