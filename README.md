@@ -745,7 +745,7 @@ If you find our code useful in your research, please consider giving a star :sta
 ```bibtex
 @misc{Instella-VL-1B, 
     title = {Instella-VL-1B: First AMD Vision Language Model},
-    url = {https://huggingface.co/AIG-GenAI/Instella-VL-1B},
+    url = {https://huggingface.co/amd/Instella-VL-1B},
     author = {Ximeng Sun, Aditya Singh, Gowtham Ramesh, Jiang Liu, Ze Wang, Sudhanshu Ranjan, Pratik Prabhanjan Brahma, Prakamya Mishra,  Jialian Wu, Xiaodong Yu, Yusheng Su, Emad Barsoum, Zicheng Liu},
     month = {March},
     year = {2025}
