@@ -2,7 +2,7 @@
   <img src="assets/images/instellavl.png" alt="InstellaVL Logo" width="800" style="margin-left:'auto' margin-right:'auto' display:'block'"/>
   <br>
   <br>
-  <h1>Instella-VL-1B✨: AMD's first Vision-Language Model</h1>
+  <h1>Instella-VL-1B: First AMD Vision Language Model</h1>
 </div>
 <p align="center">
   <a href='https://huggingface.co/amd/Instella-VL-1B'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Model-blue'></a>
@@ -744,7 +744,7 @@ If you find our code useful in your research, please consider giving a star :sta
 
 ```bibtex
 @misc{Instella-VL-1B, 
-    title = {Instella-VL-1B-1.0: AMD’s first Vision language model},
+    title = {Instella-VL-1B: First AMD Vision Language Model},
     url = {https://huggingface.co/AIG-GenAI/Instella-VL-1B},
     author = {Ximeng Sun, Aditya Singh, Gowtham Ramesh, Jiang Liu, Ze Wang, Sudhanshu Ranjan, Pratik Prabhanjan Brahma, Prakamya Mishra,  Jialian Wu, Xiaodong Yu, Yusheng Su, Emad Barsoum, Zicheng Liu},
     month = {March},
