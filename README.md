@@ -5,7 +5,7 @@
   <h1>Instella-VL-1B✨: AMD's first Vision-Language Model</h1>
 </div>
 <p align="center">
-  <a href='[https://huggingface.co/AIG-GenAI/Instella-VL-1B](https://huggingface.co/amd/Instella-VL-1B)'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Model-blue'></a>
+  <a href='https://huggingface.co/amd/Instella-VL-1B'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Model-blue'></a>
 <a href='./blog/blog-final.md'><img src='https://img.shields.io/badge/Technical-Blog-red'></a> 
   </a>
 </p>
