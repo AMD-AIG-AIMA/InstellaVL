@@ -5,7 +5,7 @@
   <h1>Instella-VL-1B✨: AMD's first Vision-Language Model</h1>
 </div>
 <p align="center">
-  <a href='https://huggingface.co/AIG-GenAI/Instella-VL-1B'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Model-blue'></a>
+  <a href='[https://huggingface.co/AIG-GenAI/Instella-VL-1B](https://huggingface.co/amd/Instella-VL-1B)'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Model-blue'></a>
 <a href='./blog/blog-final.md'><img src='https://img.shields.io/badge/Technical-Blog-red'></a> 
   </a>
 </p>
@@ -43,7 +43,7 @@ In this repository, you'll find everything you need to get started with **Instel
 .tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}
 .tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
 </style> -->
-We compare our model with models which only releases the model weights (with * in the below table) and also models which releases weights, data curvation and all training details.
+We compare our model with models which partially releases the training details (with * in the below table) and also models which releases weights, data curation and all training details.
 
 <table class="tg"><thead>
   <tr>
