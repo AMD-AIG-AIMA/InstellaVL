@@ -374,7 +374,6 @@ print("InstellaVL: ", outputs)
 
 ```python
 import os
-os.environ['HF_TOKEN']="<Your HFtoken id>"
 import torch
 from transformers import AutoTokenizer, AutoProcessor, AutoConfig, AutoModelForCausalLM
 
@@ -391,10 +390,10 @@ def load_image(image_file):
     return image
 
 
-config = AutoConfig.from_pretrained("AIG-GenAI/Instella-VL-1B", trust_remote_code=True)
-tokenizer = AutoTokenizer.from_pretrained("AIG-GenAI/Instella-VL-1B", config=config, trust_remote_code=True)
-processor = AutoProcessor.from_pretrained("AIG-GenAI/Instella-VL-1B", trust_remote_code=True)
-model = AutoModelForCausalLM.from_pretrained("AIG-GenAI/Instella-VL-1B", trust_remote_code=True).to('cuda') # or 'cpu'
+config = AutoConfig.from_pretrained("amd/Instella-VL-1B", trust_remote_code=True)
+tokenizer = AutoTokenizer.from_pretrained("amd/Instella-VL-1B", config=config, trust_remote_code=True)
+processor = AutoProcessor.from_pretrained("amd/Instella-VL-1B", trust_remote_code=True)
+model = AutoModelForCausalLM.from_pretrained("amd/Instella-VL-1B", trust_remote_code=True).to('cuda') # or 'cpu'
 model.eval()
 
 query="Describe the image."
