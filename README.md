@@ -6,7 +6,7 @@
 </div>
 <p align="center">
   <a href='https://huggingface.co/amd/Instella-VL-1B'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Model-blue'></a>
-<a href='./blog/blog-final.md'><img src='https://img.shields.io/badge/Technical-Blog-red'></a> 
+<a href='https://rocm.blogs.amd.com/artificial-intelligence/Instella-BL-1B-VLM/README.html'><img src='https://img.shields.io/badge/Technical-Blog-red'></a> 
   </a>
 </p>
 
